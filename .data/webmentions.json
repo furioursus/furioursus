@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-12-29T19:51:07.270Z",
+  "lastFetched": "2023-12-29T19:55:50.322Z",
   "children": [
     {
       "type": "entry",
@@ -105,6 +105,44 @@
       },
       "in-reply-to": "https://www.furioursus.dev/blog/hello-world",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adrianna Tan",
+        "photo": "https://webmention.io/avatar/queer.dev/39a353fef5529a675296a62bf3b824ed9c39cebde84903a1e1b6d4b6870e435c.png",
+        "url": "https://hachyderm.io/@skinnylatte"
+      },
+      "url": "https://queer.dev/@furioursus/111665410717394672#favorited-by-109355191073622634",
+      "published": null,
+      "wm-received": "2023-12-29T19:55:23Z",
+      "wm-id": 1760003,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111665410717394672/109355191073622634",
+      "wm-target": "https://www.furioursus.dev/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adrianna Tan",
+        "photo": "https://webmention.io/avatar/queer.dev/39a353fef5529a675296a62bf3b824ed9c39cebde84903a1e1b6d4b6870e435c.png",
+        "url": "https://hachyderm.io/@skinnylatte"
+      },
+      "url": "https://queer.dev/@furioursus/111665410717394672#favorited-by-109355191073622634",
+      "published": null,
+      "wm-received": "2023-12-29T19:55:23Z",
+      "wm-id": 1760004,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111665410717394672/109355191073622634",
+      "wm-target": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
