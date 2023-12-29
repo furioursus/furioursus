@@ -1,12 +1,9 @@
 ---
-import { Image } from "astro:assets";
-
 import PageLayout from "@/layouts/Base";
-import aboutImg from "@/assets/about-astro.png";
 
 const meta = {
 	title: "About",
-	description: "I'm a starter theme for Astro.build",
+	description: "i’m just a dumb gay dog who likes to code.",
 };
 ---
 
@@ -14,35 +11,31 @@ const meta = {
 	<div class="space-y-6">
 		<h1 class="title">About</h1>
 		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
+			Hi, i’m Christopher, we met before on the homepage. Anyway, this page is a little spartan
+			right now as i figure out how to talk about myself without making my toes curl. Like i said
+			before, i want to focus on this site being personal and not a portfolio site. i want to talk
+			about web development, but i want to bifurcate my personal life from my professional life, so
+			i plan to repurpose <a class="cactus-link inline-block" href="https://www.onebrightlight.com"
+				>onebrightlight.com</a
+			> as that portfolio/resume.
 		</p>
-		<div class="flex justify-center">
-			<Image
-				src={aboutImg}
-				alt="A cartoon cactus looking at the 'Astro.build' logo"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
-		<p>Here are my some of my awesome built in features:</p>
-		<ul class="list-inside list-disc">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
-		</ul>
 		<p>
-			Clone or fork my <a
-				class="cactus-link inline-block"
-				href="https://github.com/chrismwilliams/astro-cactus"
-				target="_blank"
-				rel="noopener noreferrer"
-				aria-label="github repository">repo</a
-			> if you like me!
+			Real fast because i don’t want this template to look <em>too</em> much like the starter theme:
 		</p>
+		<ul class="list-inside list-disc">
+			<li>i’m ADHD and am a huge proponent of stimulants as treatment</li>
+			<li>In 2013, two days before my birthday, i was diagnosed with HIV</li>
+			<li>i’m disastrously bisexual</li>
+			<li>i’m agender and use they/them pronouns</li>
+			<li>i live with my spouse and two cats</li>
+			<li>
+				i spend much of my weekends with my <a
+					class="cactus-link inline-block"
+					href="https://bsky.app/profile/chimeracoder.bsky.social">other partner/Sir</a
+				>, also in New York
+			</li>
+			<li>i love public transit and will take it any chance i can</li>
+			<li>i build mechanical keyboards and enjoy woodworking as hobbies</li>
+		</ul>
 	</div>
 </PageLayout>
