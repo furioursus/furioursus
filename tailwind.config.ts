@@ -44,7 +44,7 @@ export default {
 					css: {
 						"--tw-prose-body": theme("colors.textColor / 1"),
 						"--tw-prose-headings": theme("colors.accent-2 / 1"),
-						"--tw-prose-links": theme("colors.textColor / 1"),
+						"--tw-prose-links": theme("colors.link / 1"),
 						"--tw-prose-bold": theme("colors.textColor / 1"),
 						"--tw-prose-bullets": theme("colors.textColor / 1"),
 						"--tw-prose-quotes": theme("colors.quote / 1"),
@@ -120,7 +120,7 @@ export default {
 				".cactus-link": {
 					"@apply bg-[size:100%_6px] bg-bottom bg-repeat-x": {},
 					backgroundImage:
-						"linear-gradient(transparent,transparent 5px,hsl(var(--theme-text)) 5px,hsl(var(--theme-text)))",
+						"linear-gradient(transparent,transparent 5px,hsl(var(--theme-link)) 5px,hsl(var(--theme-link)))",
 					"&:hover": {
 						backgroundImage:
 							"linear-gradient(transparent,transparent 4px,hsl(var(--theme-link)) 4px,hsl(var(--theme-link)))",
