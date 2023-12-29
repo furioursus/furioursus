@@ -31,6 +31,7 @@ export default {
 				// Add any custom fonts here
 				sans: [...fontFamily.sans],
 				serif: [...fontFamily.serif],
+				mono: ["MonoLisa Variable", ...fontFamily.mono],
 			},
 			transitionProperty: {
 				height: "height",

@@ -1,10 +1,10 @@
 ---
 import type { GetStaticPaths, InferGetStaticPropsType } from "astro";
 import PostLayout from "@/layouts/BlogPost";
-import { getAllPosts } from "@/utils";
+import { getAllBlogs } from "@/utils";
 
 export const getStaticPaths = (async () => {
-	const blogEntries = await getAllPosts();
+	const blogEntries = await getAllBlogs();
 	return blogEntries.map((entry) => ({
 		params: { slug: entry.slug },
 		props: { entry },

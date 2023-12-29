@@ -4,10 +4,10 @@ import satori, { type SatoriOptions } from "satori";
 import { html } from "satori-html";
 import { Resvg } from "@resvg/resvg-js";
 import { siteConfig } from "@/site-config";
-import { getAllPosts, getFormattedDate } from "@/utils";
+import { getAllBlogs, getFormattedDate } from "@/utils";
 
-import RobotoMono from "@/assets/roboto-mono-regular.ttf";
-import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
+import MonoLisa from "@/assets/MonoLisaVariableNormal.ttf";
+// import MonoLisaItalic from "@/assets/MonoLisaVariableItalic.ttf";
 
 const ogOptions: SatoriOptions = {
 	width: 1200,
@@ -15,14 +15,14 @@ const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
 		{
-			name: "Roboto Mono",
-			data: Buffer.from(RobotoMono),
+			name: "MonoLisa Variable",
+			data: Buffer.from(MonoLisa),
 			weight: 400,
 			style: "normal",
 		},
 		{
-			name: "Roboto Mono",
-			data: Buffer.from(RobotoMonoBold),
+			name: "MonoLisa Variable",
+			data: Buffer.from(MonoLisa),
 			weight: 700,
 			style: "normal",
 		},
@@ -59,7 +59,7 @@ const markup = (title: string, pubDate: string) =>
 	</div>`;
 
 export async function GET({ params: { slug } }: APIContext) {
-	const post = await getEntryBySlug("post", slug!);
+	const post = await getEntryBySlug("blog", slug!);
 	const title = post?.data.title ?? siteConfig.title;
 	const postDate = getFormattedDate(
 		post?.data.updatedDate ?? post?.data.publishDate ?? Date.now(),
@@ -79,6 +79,6 @@ export async function GET({ params: { slug } }: APIContext) {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-	const posts = await getAllPosts();
+	const posts = await getAllBlogs();
 	return posts.filter(({ data }) => !data.ogImage).map(({ slug }) => ({ params: { slug } }));
 };
