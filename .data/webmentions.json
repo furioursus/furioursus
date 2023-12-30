@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-12-29T20:38:35.242Z",
+  "lastFetched": "2023-12-30T01:18:05.431Z",
   "children": [
     {
       "type": "entry",
@@ -291,6 +291,82 @@
       "wm-received": "2023-12-29T20:38:15Z",
       "wm-id": 1760044,
       "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3khpgwwc6x22i/did%253Aplc%253Afwxnfnddpzc7r6f76a7pgoli",
+      "wm-target": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Rupert",
+        "photo": "https://webmention.io/avatar/queer.dev/df90600eac314bfae461e88ce4a64f1853a8f914c25802ed58d55307a0525a72.jpg",
+        "url": "https://mastodon.social/@davatron5000"
+      },
+      "url": "https://queer.dev/@furioursus/111665410717394672#favorited-by-109365704389552543",
+      "published": null,
+      "wm-received": "2023-12-29T21:09:32Z",
+      "wm-id": 1760055,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111665410717394672/109365704389552543",
+      "wm-target": "https://www.furioursus.dev/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Rupert",
+        "photo": "https://webmention.io/avatar/queer.dev/df90600eac314bfae461e88ce4a64f1853a8f914c25802ed58d55307a0525a72.jpg",
+        "url": "https://mastodon.social/@davatron5000"
+      },
+      "url": "https://queer.dev/@furioursus/111665410717394672#favorited-by-109365704389552543",
+      "published": null,
+      "wm-received": "2023-12-29T21:09:32Z",
+      "wm-id": 1760056,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111665410717394672/109365704389552543",
+      "wm-target": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lilchurropdx",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/e6677146ffe540da8cebfb570f814a6cd72da2e34d21f3198533abdfbe3f1ad9.jpg",
+        "url": "https://bsky.app/profile/lilchurropdx.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3khpgwwc6x22i#liked_by_did:plc:yvec2wmk4zeb6eepv24ao63c",
+      "published": null,
+      "wm-received": "2023-12-29T22:35:51Z",
+      "wm-id": 1760090,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3khpgwwc6x22i/did%253Aplc%253Ayvec2wmk4zeb6eepv24ao63c",
+      "wm-target": "https://www.furioursus.dev/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Lilchurropdx",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/e6677146ffe540da8cebfb570f814a6cd72da2e34d21f3198533abdfbe3f1ad9.jpg",
+        "url": "https://bsky.app/profile/lilchurropdx.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3khpgwwc6x22i#liked_by_did:plc:yvec2wmk4zeb6eepv24ao63c",
+      "published": null,
+      "wm-received": "2023-12-29T22:35:52Z",
+      "wm-id": 1760091,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3khpgwwc6x22i/did%253Aplc%253Ayvec2wmk4zeb6eepv24ao63c",
       "wm-target": "https://www.furioursus.dev/blog/hello-world/",
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/hello-world/",
