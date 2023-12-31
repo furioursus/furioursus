@@ -184,6 +184,8 @@ const techStack: Array<{ title: string; desc: string; href: string }> = [
 		const hello = document.getElementById("greeting");
 
 		// Set the innerHTML of the <h1> tag to the text of the random greeting
-		hello.innerHTML = randomGreeting.text;
+		if (hello) {
+			hello.innerHTML = (randomGreeting as { language: string; text: string }).text;
+		}
 	</script>
 </PageLayout>
