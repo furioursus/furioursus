@@ -59,7 +59,7 @@ const techStack: Array<{ title: string; desc: string; href: string }> = [
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6">Hello World!</h1>
+		<h1 class="title mb-6" id="greeting">Hello, World!</h1>
 		<p class="mb-4">
 			Hey there, i’m Christopher, a recovering frontend web developer living in New York City by way
 			of Oakland, San Francisco, and Houston. i moved here in June of 2023 with my spouse Chris and
@@ -100,4 +100,90 @@ const techStack: Array<{ title: string; desc: string; href: string }> = [
 			}
 		</ul>
 	</section>
+	<script>
+		export const greetings: { language: string; text: string }[] = [
+			{ language: "Afrikaans", text: "Hello Wêreld!" },
+			{ language: "Albanian", text: "Përshendetje Botë!" },
+			{ language: "Arabic", text: "مرحبا بالعالم!" },
+			{ language: "Armenian", text: "Բարեւ աշխարհ!" },
+			{ language: "Azeri", text: "Salam Dünya" },
+			{ language: "Basque/Euskara", text: "Kaixo Mundua!" },
+			{ language: "Belarusian", text: "Прывітанне Сусвет!" },
+			{ language: "Bengali", text: "হ্যালো, বিশ্ব!" },
+			{ language: "Bosnian", text: "Zdravo svijete!" },
+			{ language: "Bulgarian", text: "Здравей свят!" },
+			{ language: "Czech", text: "Ahoj světe!" },
+			{ language: "Khmer", text: "សួស្តី​ពិភពលោក!" },
+			{ language: "Catalan", text: "Hola món!" },
+			{ language: "Chinese", text: "你好世界！" },
+			{ language: "Croatian", text: "Pozdrav svijete!" },
+			{ language: "Danish", text: "Hej, Verden!" },
+			{ language: "Dutch", text: "Hallo, wereld!" },
+			{ language: "English", text: "Hello World!" },
+			{ language: "Esperanto", text: "Saluton mondo!" },
+			{ language: "Estonian", text: "Tere, Maailm!" },
+			{ language: "Finnish", text: "Hei maailma!" },
+			{ language: "French", text: "Salut le Monde!" },
+			{ language: "Frisian", text: "Hallo, wrâld!" },
+			{ language: "Galician", text: "Ola mundo!" },
+			{ language: "German", text: "Hallo Welt!" },
+			{ language: "Greek", text: "Γεια, Κόσμος!" },
+			{ language: "Hawaiian", text: "Aloha Honua" },
+			{ language: "Hebrew", text: "שלום, עולם!" },
+			{ language: "Hindi", text: "नमस्कार, विश्व!" },
+			{ language: "Hmong", text: "Nyob zoo ntiaj teb." },
+			{ language: "Hungarian", text: "Helló világ!" },
+			{ language: "Icelandic", text: "Halló heimur!" },
+			{ language: "Igbo", text: "Ndewo Ụwa" },
+			{ language: "Indonesian", text: "Halo Dunia!" },
+			{ language: "Irish", text: "Dia dhaoibh, a dhomhain!" },
+			{ language: "Italian", text: "Ciao Mondo!" },
+			{ language: "Japanese", text: "こんにちは、世界！" },
+			{ language: "Kannada", text: "ಹಲೋ, ವರ್ಲ್ಡ್!" },
+			{ language: "Kiswahili", text: "Habari dunia!" },
+			{ language: "Kikuyu", text: "Niatia thi!" },
+			{ language: "Korean", text: "안녕하세요, 월드!" },
+			{ language: "Lao", text: "ສະ​ບາຍ​ດີ​ຊາວ​ໂລກ!" },
+			{ language: "Latin", text: "Salve, Mundus!" },
+			{ language: "Latvian", text: "Sveika, Pasaule!" },
+			{ language: "Lithuanian", text: "Sveikas, Pasauli" },
+			{ language: "Luxembourgish", text: "Moien Welt!" },
+			{ language: "Malagasy", text: "Manao ahoana ry tany!" },
+			{ language: "Malayalam", text: "Namaskaram, lokame" },
+			{ language: "Maltese", text: "Merhba lid-dinja" },
+			{ language: "Norwegian", text: "Hallo verden!" },
+			{ language: "Persian", text: "سلام دنیا!" },
+			{ language: "Polish", text: "Witaj świecie!" },
+			{ language: "Portuguese", text: "Olá, mundo!" },
+			{ language: "Punjabi", text: "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੁਨਿਆ!" },
+			{ language: "Romanian", text: "Salut lume!" },
+			{ language: "Russian", text: "Привет, мир!" },
+			{ language: "Scots Gaelic", text: "Halò, a Shaoghail!" },
+			{ language: "Serbian", text: "Zdravo Svete!" },
+			{ language: "Slovak", text: "Ahoj, svet!" },
+			{ language: "Slovenian", text: "Pozdravljen svet!" },
+			{ language: "Spanish", text: "¡Hola mundo!" },
+			{ language: "Swedish", text: "Hallå världen!" },
+			{ language: "Tagalog", text: "Kumusta, Mundo!" },
+			{ language: "Tamil", text: "வணக்கம், உலகம்!" },
+			{ language: "Telugu", text: "హలో, ప్రపంచం!" },
+			{ language: "Thai", text: "สวัสดีโลก!" },
+			{ language: "Turkish", text: "Merhaba Dünya!" },
+			{ language: "Ukrainian", text: "Привіт, Світе!" },
+			{ language: "Urdu", text: "ہیلو دنیا والو" },
+			{ language: "Vietnamese", text: "Xin chào thế giới" },
+			{ language: "Welsh", text: "S’mae byd!" },
+			{ language: "Yiddish", text: "העלא וועלט!" },
+			{ language: "Zulu", text: "Sawubona Mhlaba" },
+		];
+
+		// Randomly select a greeting from the array
+		const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+
+		// Get the <h1> element
+		const hello = document.getElementById("greeting");
+
+		// Set the innerHTML of the <h1> tag to the text of the random greeting
+		hello.innerHTML = randomGreeting.text;
+	</script>
 </PageLayout>
