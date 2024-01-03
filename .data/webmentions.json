@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2023-12-30T01:18:05.431Z",
+  "lastFetched": "2024-01-03T19:00:15.066Z",
   "children": [
     {
       "type": "entry",
@@ -370,6 +370,128 @@
       "wm-target": "https://www.furioursus.dev/blog/hello-world/",
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Alex Riviere",
+        "photo": "https://webmention.io/avatar/queer.dev/85973d14d8df1cf73a0a25b50d851a1c130ef8b476b6f13d1413a7af4c49c619.jpg",
+        "url": "https://notacult.social/@fimion"
+      },
+      "url": "https://notacult.social/@fimion/111677463197771986",
+      "published": "2023-12-31T22:47:33+00:00",
+      "wm-received": "2023-12-31T22:53:37Z",
+      "wm-id": 1761122,
+      "wm-source": "https://brid.gy/comment/mastodon/@furioursus@queer.dev/111677447492974771/111677463243061134",
+      "wm-target": "https://www.furioursus.dev/blog/not-normal/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://queer.dev/@furioursus\" class=\"u-url\">@<span>furioursus</span></a></span> there are games that people I play games with understand that I will help facilitate, but will not play (Taboo is the first that comes to mind, but there are others) because it very specifically is what my brain cannot do.</p><p>What it comes down to is, I have no issues losing, but I have issues when my brain fucks up and makes other people lose.</p>",
+        "text": "@furioursus there are games that people I play games with understand that I will help facilitate, but will not play (Taboo is the first that comes to mind, but there are others) because it very specifically is what my brain cannot do.What it comes down to is, I have no issues losing, but I have issues when my brain fucks up and makes other people lose."
+      },
+      "in-reply-to": "https://www.furioursus.dev/blog/not-normal/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Rupert",
+        "photo": "https://webmention.io/avatar/queer.dev/df90600eac314bfae461e88ce4a64f1853a8f914c25802ed58d55307a0525a72.jpg",
+        "url": "https://mastodon.social/@davatron5000"
+      },
+      "url": "https://queer.dev/@furioursus/111677447492974771#favorited-by-109365704389552543",
+      "published": null,
+      "wm-received": "2023-12-31T23:48:06Z",
+      "wm-id": 1761159,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111677447492974771/109365704389552543",
+      "wm-target": "https://www.furioursus.dev/blog/not-normal/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/not-normal/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Owen Blacker",
+        "photo": "https://webmention.io/avatar/queer.dev/d9b5c251f852c9a374535612b5099cb30f671928457cb73fd697cd7a483d519a.jpg",
+        "url": "https://dataare.cool/@owenblacker"
+      },
+      "url": "https://dataare.cool/@owenblacker/111677693300285230",
+      "published": "2023-12-31T23:46:05+00:00",
+      "wm-received": "2023-12-31T23:48:06Z",
+      "wm-id": 1761160,
+      "wm-source": "https://brid.gy/comment/mastodon/@furioursus@queer.dev/111677447492974771/111677693365729785",
+      "wm-target": "https://www.furioursus.dev/blog/not-normal/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://queer.dev/@furioursus\" class=\"u-url\">@<span>furioursus</span></a></span> *lots of hugs*</p>",
+        "text": "@furioursus *lots of hugs*"
+      },
+      "in-reply-to": "https://www.furioursus.dev/blog/not-normal/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "@biscuit_pup",
+        "photo": "https://webmention.io/avatar/queer.dev/2c5660ddfc4d6dee97b0f5da2fd743a5c4fb02cd08ab83951f259c1a327d51f2.jpg",
+        "url": "https://woof.group/@biscuit_pup"
+      },
+      "url": "https://queer.dev/@furioursus/111693044101471771#favorited-by-109314698103370081",
+      "published": null,
+      "wm-received": "2024-01-03T16:57:21Z",
+      "wm-id": 1762352,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111693044101471771/109314698103370081",
+      "wm-target": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Owl's Eyes Ty(ler)",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/c779332a0ff4991378e9d25c7449a84aea19b195af4ffd9449fd6d655d79394c.jpg",
+        "url": "https://bsky.app/profile/jtsdmpk.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3ki3pnxzsda2m#liked_by_did:plc:pw6mlsiecmerrbq65xuq4diy",
+      "published": null,
+      "wm-received": "2024-01-03T17:00:34Z",
+      "wm-id": 1762361,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3ki3pnxzsda2m/did%253Aplc%253Apw6mlsiecmerrbq65xuq4diy",
+      "wm-target": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ïago st james????SF",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/666ab6c8b0c58c187f60dd5c34c449af7a1d208ee87a9b4463e33d1253ca176b.jpg",
+        "url": "https://bsky.app/profile/iagoiagoiago.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3ki3pnxzsda2m#liked_by_did:plc:euwxdckw5f4ympulpvlpm56w",
+      "published": null,
+      "wm-received": "2024-01-03T17:36:07Z",
+      "wm-id": 1762390,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3ki3pnxzsda2m/did%253Aplc%253Aeuwxdckw5f4ympulpvlpm56w",
+      "wm-target": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
       "wm-property": "like-of",
       "wm-private": false
     }
