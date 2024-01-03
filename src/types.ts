@@ -8,6 +8,9 @@ export type SiteConfig = {
 		locale: string | string[] | undefined;
 		options: Intl.DateTimeFormatOptions;
 	};
+	social: {
+		mastodon: string;
+	};
 	webmentions?: {
 		link: string;
 		pingback?: string;

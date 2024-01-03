@@ -20,6 +20,9 @@ export const siteConfig: SiteConfig = {
 			year: "numeric",
 		},
 	},
+	social: {
+		mastodon: "https://queer.dev/@furioursus",
+	},
 	webmentions: {
 		link: "https://webmention.io/www.furioursus.dev/webmention",
 	},
