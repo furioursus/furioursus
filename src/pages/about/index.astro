@@ -1,0 +1,68 @@
+---
+import PageLayout from "@/layouts/Base";
+import { Image } from "astro:assets";
+import Selfie from "./train-selfie.jpg";
+
+const meta = {
+	title: "About",
+	description: "i’m just a dumb gay dog who likes to code.",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="grid grid-cols-1 gap-6 md:grid-cols-12">
+		<h1 class="title order-1 md:col-span-12">About</h1>
+		<Image
+			src={Selfie}
+			alt="Selfie of me, a white masculine-presenting person with a red and white beard cropped tight flashing a peace sign. i am wearing a black snapback hat with a plaid brim, clear/white glasses, a septum ring, and a black t-shirt with a pink triangle showing a hairy illustrated chest. On top of that is my Sir’s chain and padlock collar around my neck. i’m flashing a peace sign to the camera as i sit in an open C train in New York."
+			class="order-2 md:order-3 md:col-span-4"
+		/>
+		<div class="order-3 space-y-6 md:order-2 md:col-span-8">
+			<p>
+				Hi, i’m Christopher (we met before on the homepage, remember?). This page is a little
+				spartan right now as i figure out how to talk about myself without making me cringe. Like i
+				said before, i want to focus on this site being personal and not a portfolio site. i want to
+				talk about web development, but i want to bifurcate my personal life from my professional
+				life, so i plan to repurpose <a
+					class="cactus-link inline-block"
+					href="https://www.onebrightlight.com">onebrightlight.com</a
+				> as that portfolio/resume.
+			</p>
+			<h2 class="subtitle">Personal</h2>
+			<p>
+				Real fast because i don’t want this template to look <em>too</em> much like the starter
+				theme:
+			</p>
+			<ul class="list-inside list-disc">
+				<li>
+					i’m <a href="https://www.cdc.gov/ncbddd/adhd/index.html" class="cactus-link inline-block"
+						>ADHD</a
+					> and am a huge proponent of stimulants as treatment
+				</li>
+				<li>In 2013, two days before my birthday, i was diagnosed with HIV</li>
+				<li>i’m disastrously bisexual</li>
+				<li>
+					i’m <a
+						href="https://www.teenvogue.com/story/what-is-agender"
+						class="cactus-link inline-block">agender</a
+					> and use they/them pronouns
+				</li>
+				<li>i live with my spouse and two cats</li>
+				<li>
+					i spend much of my weekends with my <a
+						class="cactus-link inline-block"
+						href="https://bsky.app/profile/chimeracoder.bsky.social">other partner/Sir</a
+					>, also in New York
+				</li>
+				<li>
+					i love <a class="cactus-link inline-block" href="https://new.mta.info/">public transit</a>
+					 and will take it any chance i can
+				</li>
+				<li>
+					i build mechanical keyboards and enjoy woodworking as hobbies, even though my living space
+					doesn’t allow much room for either.
+				</li>
+			</ul>
+		</div>
+	</div>
+</PageLayout>
