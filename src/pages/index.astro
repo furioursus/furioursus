@@ -176,20 +176,30 @@ const techStack: Array<{ title: string; desc: string; href: string }> = [
 			{ language: "Zulu", text: "Sawubona Mhlaba", langcode: "zu", dir: "ltr" },
 		];
 
-		// Randomly select a “Hello, World!” from the array
-		const randomGreeting = greetings[Math.floor(Math.random() * greetings.length)];
+		function randomGreeting() {
+			// Randomly select a “Hello, World!” from the array
+			const randHello = greetings[Math.floor(Math.random() * greetings.length)];
 
-		// Get the greeting element
-		const hello = document.getElementById("greeting");
+			// Get the greeting element
+			const hello = document.getElementById("greeting");
 
-		// If the element exists, update the text
-		if (hello) {
-			// Set the innerHTML of the <h1> tag to the text of the random greeting, and the lang attribute to the langcode of the random greeting
-			hello.setAttribute("lang", (randomGreeting as { langcode: string }).langcode);
-			hello.setAttribute("dir", (randomGreeting as { dir: string }).dir);
-			hello.innerHTML = (
-				randomGreeting as { language: string; text: string; langcode: string; dir: string }
-			).text;
+			// If the element exists, update the text
+			if (hello) {
+				// Set the innerHTML of the <h1> tag to the text of the random greeting, and the lang attribute to the langcode of the random greeting
+				hello.setAttribute("lang", (randHello as { langcode: string }).langcode);
+				hello.setAttribute("dir", (randHello as { dir: string }).dir);
+				hello.innerHTML = (
+					randHello as { language: string; text: string; langcode: string; dir: string }
+				).text;
+			}
 		}
+
+		document.addEventListener("astro:page-load", () => {
+			randomGreeting();
+		});
+
+		document.addEventListener("astro:after-swap", () => {
+			randomGreeting();
+		});
 	</script>
 </PageLayout>
