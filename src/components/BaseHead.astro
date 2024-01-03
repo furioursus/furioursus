@@ -68,6 +68,10 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 {/* Mastodon Profile Verification */}
 <link rel="me" href={siteConfig.social.mastodon} />
 
+{/* Manually set theme color */}
+<meta name="theme-color" content="#f0f0f0" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#1A1A1A" media="(prefers-color-scheme: dark)" />
+
 {/* Webmentions */}
 {
 	siteConfig.webmentions && (
