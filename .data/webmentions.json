@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-01-04T20:46:23.191Z",
+  "lastFetched": "2024-01-04T21:18:01.570Z",
   "children": [
     {
       "type": "entry",
@@ -511,6 +511,44 @@
       "wm-target": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Slobber Baron",
+        "photo": "https://webmention.io/avatar/queer.dev/9ec2b72d85ba2b5b0fb38fb6b97dbdb786439f0dec9bb8ae573957a04afc12a2.jpg",
+        "url": "https://woof.group/@aphyr"
+      },
+      "url": "https://queer.dev/@furioursus/111699683707852450#favorited-by-109314666880230511",
+      "published": null,
+      "wm-received": "2024-01-04T21:12:14Z",
+      "wm-id": 1762948,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111699683707852450/109314666880230511",
+      "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Luke GB",
+        "photo": "https://webmention.io/avatar/queer.dev/13708572e9d247eeef78e75df86087cc1bbf97896f5ec5910c96118839a4c5a9.jpg",
+        "url": "https://social.treehouse.systems/@lukegb"
+      },
+      "url": "https://queer.dev/@furioursus/111699683707852450#favorited-by-109314694120983947",
+      "published": null,
+      "wm-received": "2024-01-04T21:12:14Z",
+      "wm-id": 1762949,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111699683707852450/109314694120983947",
+      "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/getting-ready/",
       "wm-property": "like-of",
       "wm-private": false
     }
