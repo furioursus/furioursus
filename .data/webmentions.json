@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-01-03T20:00:22.887Z",
+  "lastFetched": "2024-01-04T20:46:23.191Z",
   "children": [
     {
       "type": "entry",
@@ -489,6 +489,25 @@
       "wm-received": "2024-01-03T17:36:07Z",
       "wm-id": 1762390,
       "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3ki3pnxzsda2m/did%253Aplc%253Aeuwxdckw5f4ympulpvlpm56w",
+      "wm-target": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Owen Blacker",
+        "photo": "https://webmention.io/avatar/queer.dev/d9b5c251f852c9a374535612b5099cb30f671928457cb73fd697cd7a483d519a.jpg",
+        "url": "https://dataare.cool/@owenblacker"
+      },
+      "url": "https://queer.dev/@furioursus/111693044101471771#favorited-by-109837052446608513",
+      "published": null,
+      "wm-received": "2024-01-03T20:00:38Z",
+      "wm-id": 1762435,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111693044101471771/109837052446608513",
       "wm-target": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/last-night-a-dj-saved-my-life/",
