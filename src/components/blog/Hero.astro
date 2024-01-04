@@ -20,15 +20,13 @@ const dateTimeOptions: Intl.DateTimeFormatOptions = {
 
 {
 	data.coverImage && (
-		<div class="aspect-h-9 aspect-w-16 mb-6">
-			<Image
-				src={data.coverImage.src}
-				alt={data.coverImage.alt}
-				class="object-cover"
-				loading="eager"
-				fetchpriority="high"
-			/>
-		</div>
+		<Image
+			src={data.coverImage.src}
+			alt={data.coverImage.alt}
+			class={`${data.coverImage.aspectClass ?? "aspect-video"} mb-6 object-cover`}
+			loading="eager"
+			fetchpriority="high"
+		/>
 	)
 }
 {data.draft ? <span class="text-base text-red-500">(Draft)</span> : null}

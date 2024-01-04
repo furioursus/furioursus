@@ -24,6 +24,7 @@ const blog = defineCollection({
 			coverImage: z
 				.object({
 					src: image(),
+					aspectClass: z.string()?.optional(),
 					alt: z.string(),
 				})
 				.optional(),
