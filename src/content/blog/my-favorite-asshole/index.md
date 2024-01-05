@@ -4,7 +4,7 @@ description: "My cat Tybalt is an asshole, but i love him dearly. He’s not gre
 publishDate: "03 January 2024"
 coverImage:
   src: "./tybalt-in-my-beanie.jpg"
-  aspectClass: "aspect-[14/16]"
+  aspectClass: "aspect-[12/16]"
   alt: "My cat Tybalt, a white flamepoint Tabby/Siamese mix sits on a wooden platform while looking off to the side dejectedly while wearing a full-sized black skullcap beanie from Mr. S Leather that i placed on him moments ago."
 tags: ["cats", "photos", "tybalt"]
 draft: false
