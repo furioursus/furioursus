@@ -21,6 +21,7 @@ const blog = defineCollection({
 				.string()
 				.optional()
 				.transform((str) => (str ? new Date(str) : undefined)),
+			note: z.string().optional(),
 			coverImage: z
 				.object({
 					src: image(),

@@ -1,0 +1,11 @@
+---
+interface Props {
+	content: string;
+}
+const { content } = Astro.props;
+---
+
+<div class="mt-8 border-b border-t border-dashed py-8 dark:border-gray-300">
+	<b>Nota Bene:</b>
+	{content}
+</div>
