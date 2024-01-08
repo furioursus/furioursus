@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-01-04T21:18:01.570Z",
+  "lastFetched": "2024-01-08T05:53:31.130Z",
   "children": [
     {
       "type": "entry",
@@ -546,6 +546,105 @@
       "wm-received": "2024-01-04T21:12:14Z",
       "wm-id": 1762949,
       "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111699683707852450/109314694120983947",
+      "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Corey’s 12 Gays of Dyckmas!",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/b2cf6a4919cf0cdf33badb5f093bc53e17132ff334525f6e5757f6c8dbd2c41c.jpg",
+        "url": "https://bsky.app/profile/thealmostbear.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3ki6nzczh3m2j#liked_by_did:plc:rnu2ttrx5zbthskq4frrcbsn",
+      "published": null,
+      "wm-received": "2024-01-04T21:18:45Z",
+      "wm-id": 1762950,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3ki6nzczh3m2j/did%253Aplc%253Arnu2ttrx5zbthskq4frrcbsn",
+      "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Owen Blacker",
+        "photo": "https://webmention.io/avatar/queer.dev/d9b5c251f852c9a374535612b5099cb30f671928457cb73fd697cd7a483d519a.jpg",
+        "url": "https://dataare.cool/@owenblacker"
+      },
+      "url": "https://queer.dev/@furioursus/111699683707852450#favorited-by-109837052446608513",
+      "published": null,
+      "wm-received": "2024-01-04T22:12:15Z",
+      "wm-id": 1762971,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111699683707852450/109837052446608513",
+      "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Owen Blacker",
+        "photo": "https://webmention.io/avatar/queer.dev/d9b5c251f852c9a374535612b5099cb30f671928457cb73fd697cd7a483d519a.jpg",
+        "url": "https://dataare.cool/@owenblacker"
+      },
+      "url": "https://dataare.cool/@owenblacker/111699867916388375",
+      "published": "2024-01-04T21:45:22+00:00",
+      "wm-received": "2024-01-04T22:12:15Z",
+      "wm-id": 1762972,
+      "wm-source": "https://brid.gy/comment/mastodon/@furioursus@queer.dev/111699683707852450/111699867938055384",
+      "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-protocol": "webmention",
+      "content": {
+        "html": "<p><span class=\"h-card\"><a href=\"https://queer.dev/@furioursus\" class=\"u-url\">@<span>furioursus</span></a></span> That's a gorgeous photo!</p>",
+        "text": "@furioursus That's a gorgeous photo!"
+      },
+      "in-reply-to": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Leprosaria",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/635dde7a1b2b7c1d5852d6b9566e0ec78f78bc2f99232832f5987793d1df84e4.jpg",
+        "url": "https://bsky.app/profile/leprosaria.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3ki6nzczh3m2j#liked_by_did:plc:en6lxxjuq4yr2loncwam4utv",
+      "published": null,
+      "wm-received": "2024-01-05T02:32:04Z",
+      "wm-id": 1763028,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3ki6nzczh3m2j/did%253Aplc%253Aen6lxxjuq4yr2loncwam4utv",
+      "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/getting-ready/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "albert, living galaxy. ????",
+        "photo": "https://webmention.io/avatar/queer.dev/252bdd7c41d3d834f722be509c2b5aaee98f8ca46918c8e89290a4435177ec93.jpg",
+        "url": "https://woof.group/@aewallace"
+      },
+      "url": "https://queer.dev/@furioursus/111699683707852450#favorited-by-109314681731702793",
+      "published": null,
+      "wm-received": "2024-01-05T03:57:44Z",
+      "wm-id": 1763068,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111699683707852450/109314681731702793",
       "wm-target": "https://www.furioursus.dev/blog/getting-ready/",
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/getting-ready/",
