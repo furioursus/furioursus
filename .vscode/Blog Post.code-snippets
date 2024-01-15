@@ -1,0 +1,21 @@
+{
+	"add blog post frontmatter": {
+		"prefix": "frontmatter",
+		"scope": "plaintext,markdown,html",
+		"body": [
+			"---",
+			"title: $TM_FILENAME_BASE",
+			"description: \"\"",
+			"publishDate: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\"",
+			"#coverImage:",
+			"#	src: \"\"",
+			"#	aspectClass: \"\"",
+			"#	alt: \"\"",
+			"#tags: [\"\"]",
+			"draft: true",
+			"---",
+			"$2"
+		],
+		"description": "Add frontmatter for new blog post"
+	}
+}
