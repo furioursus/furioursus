@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-01-08T05:53:31.130Z",
+  "lastFetched": "2024-01-15T21:20:16.933Z",
   "children": [
     {
       "type": "entry",
@@ -649,6 +649,120 @@
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/getting-ready/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "aubrey all along",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/febec7de494f5cddac743fcce5047647332917d1286424b39cc94158addd9975.jpg",
+        "url": "https://bsky.app/profile/aubreytwo.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3kj2dhaxgfx24#liked_by_did:plc:72xjk7r365xvyxliue75qsdk",
+      "published": null,
+      "wm-received": "2024-01-15T21:12:27Z",
+      "wm-id": 1767582,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3kj2dhaxgfx24/did%253Aplc%253A72xjk7r365xvyxliue75qsdk",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michael Engard",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/c53c2b923fb0e89fa367c4668e6ae83176f073dfa6f2b1ffda202d80eda37927.jpg",
+        "url": "https://engard.me/"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3khpgwwc6x22i#reposted_by_did:plc:fwxnfnddpzc7r6f76a7pgoli",
+      "published": null,
+      "wm-received": "2023-12-29T20:38:18Z",
+      "wm-id": 1760045,
+      "wm-source": "https://brid.gy/repost/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3khpgwwc6x22i/did%253Aplc%253Afwxnfnddpzc7r6f76a7pgoli",
+      "wm-target": "https://www.furioursus.dev/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.furioursus.dev/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michael Engard",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/c53c2b923fb0e89fa367c4668e6ae83176f073dfa6f2b1ffda202d80eda37927.jpg",
+        "url": "https://engard.me/"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3khpgwwc6x22i#reposted_by_did:plc:fwxnfnddpzc7r6f76a7pgoli",
+      "published": null,
+      "wm-received": "2023-12-29T20:38:18Z",
+      "wm-id": 1760046,
+      "wm-source": "https://brid.gy/repost/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3khpgwwc6x22i/did%253Aplc%253Afwxnfnddpzc7r6f76a7pgoli",
+      "wm-target": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Owen Blacker",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/9e41a24565602f47492fa1979b1302d18c0aba43c3d6bfd97d4e9a487f3f7f24.jpg",
+        "url": "https://bsky.app/profile/owenblacker.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3khpgwwc6x22i#reposted_by_did:plc:6w3amz23kj7iyksheryzmq2m",
+      "published": null,
+      "wm-received": "2023-12-29T22:35:54Z",
+      "wm-id": 1760092,
+      "wm-source": "https://brid.gy/repost/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3khpgwwc6x22i/did%253Aplc%253A6w3amz23kj7iyksheryzmq2m",
+      "wm-target": "https://www.furioursus.dev/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.furioursus.dev/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Owen Blacker",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/9e41a24565602f47492fa1979b1302d18c0aba43c3d6bfd97d4e9a487f3f7f24.jpg",
+        "url": "https://bsky.app/profile/owenblacker.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3khpgwwc6x22i#reposted_by_did:plc:6w3amz23kj7iyksheryzmq2m",
+      "published": null,
+      "wm-received": "2023-12-29T22:35:54Z",
+      "wm-id": 1760093,
+      "wm-source": "https://brid.gy/repost/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3khpgwwc6x22i/did%253Aplc%253A6w3amz23kj7iyksheryzmq2m",
+      "wm-target": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.furioursus.dev/blog/hello-world/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "aubrey all along",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/febec7de494f5cddac743fcce5047647332917d1286424b39cc94158addd9975.jpg",
+        "url": "https://bsky.app/profile/aubreytwo.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3kj2dhaxgfx24#reposted_by_did:plc:72xjk7r365xvyxliue75qsdk",
+      "published": null,
+      "wm-received": "2024-01-15T21:12:27Z",
+      "wm-id": 1767583,
+      "wm-source": "https://brid.gy/repost/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3kj2dhaxgfx24/did%253Aplc%253A72xjk7r365xvyxliue75qsdk",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
