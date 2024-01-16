@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-01-15T21:20:16.933Z",
+  "lastFetched": "2024-01-16T02:29:12.920Z",
   "children": [
     {
       "type": "entry",
@@ -763,6 +763,25 @@
       "wm-protocol": "webmention",
       "repost-of": "https://www.furioursus.dev/blog/owning-our-interests/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Prince Wilson",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/9a3e826dc0c462609f446bb078f7e65e363e1e4bb72c95ac601242edd4078827.jpg",
+        "url": "https://bsky.app/profile/maxcell.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3kj2dhaxgfx24#liked_by_did:plc:i7vdeasvwafsklllgtkwf3ef",
+      "published": null,
+      "wm-received": "2024-01-16T00:39:57Z",
+      "wm-id": 1767659,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3kj2dhaxgfx24/did%253Aplc%253Ai7vdeasvwafsklllgtkwf3ef",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
