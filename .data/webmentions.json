@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-01-16T02:29:12.920Z",
+  "lastFetched": "2024-01-16T20:53:38.346Z",
   "children": [
     {
       "type": "entry",
@@ -778,6 +778,120 @@
       "wm-received": "2024-01-16T00:39:57Z",
       "wm-id": 1767659,
       "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3kj2dhaxgfx24/did%253Aplc%253Ai7vdeasvwafsklllgtkwf3ef",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jakob",
+        "photo": "https://webmention.io/avatar/queer.dev/db1d635fb4356e493a52ae26f48c9f875d733a757cb82141ea43b0221d79f2d5.png",
+        "url": "https://hostux.social/@74k08"
+      },
+      "url": "https://queer.dev/@furioursus/111761990677346970#favorited-by-109813408523520930",
+      "published": null,
+      "wm-received": "2024-01-16T06:28:28Z",
+      "wm-id": 1767709,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111761990677346970/109813408523520930",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "cassidoo",
+        "photo": "https://webmention.io/avatar/queer.dev/157ec0e4be1d5ba4d6b39bceda800d4989e0467e0b57e53b40476c62643ee3cc.png",
+        "url": "https://notacult.social/@cassidoo"
+      },
+      "url": "https://queer.dev/@furioursus/111761990677346970#favorited-by-109365445375030555",
+      "published": null,
+      "wm-received": "2024-01-16T06:28:29Z",
+      "wm-id": 1767710,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111761990677346970/109365445375030555",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "cassidoo",
+        "photo": "https://webmention.io/avatar/queer.dev/157ec0e4be1d5ba4d6b39bceda800d4989e0467e0b57e53b40476c62643ee3cc.png",
+        "url": "https://notacult.social/@cassidoo"
+      },
+      "url": "https://queer.dev/@furioursus/111761990677346970#reblogged-by-109365445375030555",
+      "published": null,
+      "wm-received": "2024-01-16T06:28:31Z",
+      "wm-id": 1767711,
+      "wm-source": "https://brid.gy/repost/mastodon/@furioursus@queer.dev/111761990677346970/109365445375030555",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cassidy",
+        "photo": "https://webmention.io/avatar/cdn.bsky.app/d086d124c97fdf907f4632712bc317e2c104032076cc7a23852085b3306da3ca.jpg",
+        "url": "https://bsky.app/profile/cassidoo.bsky.social"
+      },
+      "url": "https://bsky.app/profile/furioursus.dev/post/3kj2dhaxgfx24#liked_by_did:plc:bhdap3w2bseikypfnjmaskzf",
+      "published": null,
+      "wm-received": "2024-01-16T06:37:54Z",
+      "wm-id": 1767712,
+      "wm-source": "https://brid.gy/like/bluesky/did:plc:yjpusf2kbwemp7bo3yofihu3/at%253A%252F%252Fdid%253Aplc%253Ayjpusf2kbwemp7bo3yofihu3%252Fapp.bsky.feed.post%252F3kj2dhaxgfx24/did%253Aplc%253Abhdap3w2bseikypfnjmaskzf",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Zack Apiratitham",
+        "photo": "https://webmention.io/avatar/queer.dev/8183f245cdcbbf5bdacddc72d31645e59208315a570a83675b4c99419ae23443.jpg",
+        "url": "https://mastodon.social/@zackva"
+      },
+      "url": "https://queer.dev/@furioursus/111761990677346970#favorited-by-109549828166492234",
+      "published": null,
+      "wm-received": "2024-01-16T16:45:02Z",
+      "wm-id": 1767885,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111761990677346970/109549828166492234",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Regina Locicero",
+        "photo": "https://webmention.io/avatar/queer.dev/ccf2a3cf65ac49b556b8e1c854fde4ed288dad96cdfd2b9fe6777675a133dbca.jpg",
+        "url": "https://androiddev.social/@code_kobold"
+      },
+      "url": "https://queer.dev/@furioursus/111761990677346970#favorited-by-111756300318237056",
+      "published": null,
+      "wm-received": "2024-01-16T17:16:12Z",
+      "wm-id": 1767915,
+      "wm-source": "https://brid.gy/like/mastodon/@furioursus@queer.dev/111761990677346970/111756300318237056",
       "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
