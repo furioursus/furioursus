@@ -59,12 +59,16 @@ const techStack: Array<{ title: string; desc: string; href: string }> = [
 
 <PageLayout meta={{ title: "Home" }}>
 	<section>
-		<h1 class="title mb-6" id="greeting">Hello, World!</h1>
+		<h1 class="group title mb-6" id="greeting">
+			<span class="group-hover:animate-wobble inline-block">👋</span>
+			<span id="greeting-text">Hello, World!</span>
+		</h1>
 		<p class="mb-4">
 			Hey there, i’m Christopher, a recovering frontend web developer living in New York City by way
 			of Oakland, San Francisco, and Houston. i moved here in June of 2023 with my spouse Chris and
-			our two cats, Dante and Tybalt. i’m still dealing with being burned out, so instead of
-			building another portfolio site, i decided to build myself a personal one, instead.
+			our two cats, Dante and Tybalt. i’ve spent the last year or so working on healing in response
+			to suffering burnout in late 2022, so instead of building another portfolio site, i decided to
+			build myself a personal one, instead.
 		</p>
 		<SocialList />
 	</section>
@@ -181,7 +185,7 @@ const techStack: Array<{ title: string; desc: string; href: string }> = [
 			const randHello = greetings[Math.floor(Math.random() * greetings.length)];
 
 			// Get the greeting element
-			const hello = document.getElementById("greeting");
+			const hello = document.getElementById("greeting-text");
 
 			// If the element exists, update the text
 			if (hello) {
