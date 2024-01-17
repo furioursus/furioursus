@@ -1,8 +1,5 @@
 ---
-import { Image } from "astro:assets";
-
 import PageLayout from "@/layouts/Base";
-import aboutImg from "@/assets/about-astro.png";
 
 const meta = {
 	title: "Oops! You found a missing page!",
@@ -14,11 +11,84 @@ const meta = {
 	<h1 class="title mb-6">404 | Oops something went wrong</h1>
 	<p class="mb-8">Please use the navigation to find your way back</p>
 	<div class="my-4 grid justify-center">
-		<Image
-			class="rotate-180"
-			src={aboutImg}
-			alt="A cartoon cactus looking at the 'Astro.build' logo"
-			loading="eager"
-		/>
+		<div class="animate-zoom-in-down relative">
+			<svg
+				class="hover:animate-wobble h-64 w-64 md:h-96 md:w-96 lg:h-[30rem] lg:w-[30rem]"
+				xmlns="http://www.w3.org/2000/svg"
+				xml:space="preserve"
+				fill-rule="nonzero"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-miterlimit="10"
+				clip-rule="evenodd"
+				version="1.1"
+				viewBox="0 0 512 512"
+			>
+				<g class="relative" id="dizzy-bear-head" fill-rule="nonzero" stroke="none">
+					<path
+						id="head-base"
+						class="relative z-0 fill-link"
+						d="M422.511 136.685c-16.27-16.06-42.49-15.89-58.55.38l-16.45 16.67c-26.13-18.84-57.66-30.82-91.59-30.82-33.93 0-65.46 11.98-91.6 30.82l-16.45-16.67c-16.16-16.18-42.38-16.2-58.56-.04-16.05 16.02-16.22 41.97-.39 58.21l20.83 21.11c-11.08 20.99-17.36 43.4-17.36 64.86 0 73.49 73.21 107.88 163.53 107.88 90.32 0 163.53-34.38 163.53-107.88 0-21.46-6.28-43.88-17.37-64.86l20.83-21.11c16.06-16.28 15.88-42.49-.39-58.55h-.01Zm-157.15 211.17v-46.65h6.3c5.22-.05 9.41-4.33 9.36-9.55-.05-5.14-4.21-9.3-9.36-9.36h-31.5c-5.22-.05-9.5 4.13-9.55 9.36-.05 5.22 4.13 9.5 9.36 9.55h6.49v46.65c-28.54-3.32-50.45-21.31-50.45-43.02 0-24.05 26.87-43.62 59.9-43.62s59.9 19.57 59.9 43.62c0 21.71-21.91 39.7-50.45 43.02Z"
+						opacity="1"></path>
+					<g class="animate-jello-infinite origin-center">
+						<path
+							id="left-eye"
+							class="rotate relative z-10 fill-bgColor"
+							d="M157.11 254.793c4.457-1.782 3.12-8.021 0-10.695-4.902-4.011-12.033-1.783-15.152 3.565-6.685 10.696 4.011 22.283 15.152 21.837 12.033-.891 19.164-12.924 16.49-24.065-3.12-13.37-17.381-20.055-29.86-16.044-11.587 3.565-18.717 15.598-17.826 27.631 1.337 13.369 11.587 24.065 24.511 26.294 12.479 2.228 25.403-3.566 32.088-14.261 3.119-4.903 5.348-10.696 5.348-16.936 0-2.228 2.228-4.456 4.902-4.01 3.565 0 4.456 3.565 4.011 6.239-1.783 20.946-20.055 38.326-41.446 38.326-26.294 0-46.795-27.63-35.653-52.587 11.141-24.066 45.903-28.968 59.272-5.348 6.685 11.141 5.348 25.848-4.01 35.207-8.914 8.913-23.62 10.696-34.316 3.119-9.805-7.13-12.924-21.837-4.902-32.087 7.576-10.25 24.511-10.696 31.196.891 4.902 8.468 0 23.175-11.142 21.838-7.13 0-13.37-7.577-9.359-14.261 2.674-4.011 8.468-2.674 10.251.445.891 3.565.445 4.902.445 4.902Z"
+							opacity="1"></path>
+					</g>
+					<g class="animate-jello-infinite origin-center">
+						<path
+							id="right-eye"
+							class="rotate-reverse relative z-10 fill-bgColor"
+							d="M355.558 254.876c-1.89-4.412 3.467-7.879 7.563-7.563 6.303.63 9.769 7.248 8.194 13.235-2.836 12.29-18.593 12.92-26.156 4.727-7.878-9.139-4.412-22.689 5.357-28.677 11.66-7.248 26.471-1.891 32.459 9.769 5.672 10.715 2.205 24.265-6.933 32.143-10.399 8.509-25.211 8.824-35.925 1.261-10.399-7.248-15.441-20.484-12.605-32.774 1.261-5.672 3.782-11.344 8.193-15.756 1.576-1.576 1.576-4.727-.63-6.302-2.521-2.522-5.672-.631-7.248 1.575-13.55 16.072-12.92 41.282 2.206 56.408 18.593 18.593 52.626 13.551 62.395-11.975 9.139-24.895-11.974-52.941-38.13-45.693-12.605 3.151-22.059 14.496-22.059 27.731 0 12.605 9.139 24.265 22.059 26.471 11.975 1.89 24.58-6.303 26.156-19.223 1.89-12.605-9.769-24.895-22.69-21.429-9.454 2.521-16.386 16.387-7.563 23.32 5.042 5.042 14.811 4.096 16.702-3.467.945-4.727-4.097-7.878-7.563-6.933-3.151 1.891-3.782 3.152-3.782 3.152Z"
+							opacity="1"></path>
+					</g>
+				</g>
+			</svg>
+		</div>
 	</div>
 </PageLayout>
+
+<style>
+	.rotate {
+		animation: rotation 3s infinite linear;
+		transform-box: fill-box;
+		transform-origin: center;
+	}
+
+	.rotate-slower {
+		animation: rotation 5s infinite linear;
+		transform-box: fill-box;
+		transform-origin: center;
+	}
+
+	.rotate-slowest {
+		animation: rotation 10s infinite linear;
+		transform-box: fill-box;
+		transform-origin: center;
+	}
+
+	.rotate-reverse {
+		animation: rotation-reverse 3s infinite linear;
+		transform-box: fill-box;
+		transform-origin: center;
+	}
+
+	@keyframes rotation {
+		from {
+			transform: rotate(0deg);
+		}
+		to {
+			transform: rotate(360deg);
+		}
+	}
+	@keyframes rotation-reverse {
+		from {
+			transform: rotate(360deg);
+		}
+		to {
+			transform: rotate(0deg);
+		}
+	}
+</style>
