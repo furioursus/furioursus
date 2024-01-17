@@ -6,12 +6,12 @@
 	:root {
 		color-scheme: light;
 		/* https://tailwindcss.com/docs/customizing-colors#using-css-variables */
-		--theme-bg: 0 0 94%;
+		--theme-bg: 0 100% 98%;
 		--theme-link: 25deg 100% 50%;
 		--theme-text: 203deg 11% 15%;
 		--theme-accent: 45deg 89% 69%;
 		--theme-accent-2: 25deg 100% 50%;
-		--theme-quote: 220deg 18% 89%;
+		--theme-quote: 332deg 100% 52%;
 	}
 
 	:root.dark {
