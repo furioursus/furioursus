@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2024-01-16T20:53:38.346Z",
+  "lastFetched": "2024-03-15T03:03:22.954Z",
   "children": [
     {
       "type": "entry",
@@ -896,6 +896,25 @@
       "wm-protocol": "webmention",
       "like-of": "https://www.furioursus.dev/blog/owning-our-interests/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "hypha",
+        "photo": "https://webmention.io/avatar/queer.dev/936c42bc61ed67e2166d244461d9bedcfcfe59ff6eff8b6416b909156ee591a3.png",
+        "url": "https://indieweb.social/@hypha"
+      },
+      "url": "https://queer.dev/@furioursus/111761990677346970#reblogged-by-111772538426049111",
+      "published": null,
+      "wm-received": "2024-01-18T03:08:27Z",
+      "wm-id": 1768710,
+      "wm-source": "https://brid.gy/repost/mastodon/@furioursus@queer.dev/111761990677346970/111772538426049111",
+      "wm-target": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-protocol": "webmention",
+      "repost-of": "https://www.furioursus.dev/blog/owning-our-interests/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
