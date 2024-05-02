@@ -28,7 +28,7 @@
 		"@astrojs/check": "^0.5.9",
 		"@pagefind/default-ui": "^1.0.4",
 		"@resvg/resvg-js": "^2.6.0",
-		"@tailwindcss/typography": "^0.5.10",
+		"@tailwindcss/typography": "^0.5.13",
 		"@types/eslint": "^8.56.5",
 		"@typescript-eslint/eslint-plugin": "^7.2.0",
 		"@typescript-eslint/parser": "^7.2.0",
